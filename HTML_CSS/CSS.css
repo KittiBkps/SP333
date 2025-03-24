@@ -8,11 +8,10 @@ body {
   .container {
     width: 100%;
     margin: 0 auto;
-    /*background-color: #DAB887 ;*/
   }
 
   .header {
-    background-color: #ffffff;
+    background-color: #DAB887;
     padding: 20px;
     text-align: center;
   }
