@@ -76,3 +76,56 @@ body {
     width: 400px;
     height: 200px;
   }
+
+  .login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 80%;
+  }
+  
+  .login-form {
+    flex: 1;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-btn, .register-btn {
+    background-color: #e0f7fa;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .register-btn {
+    background-color: #f0f0f0;
+    color: #333;
+  }
