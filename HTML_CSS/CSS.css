@@ -125,7 +125,119 @@ body {
     margin-top: 10px;
   }
   
-  .register-btn {
-    background-color: #f0f0f0;
-    color: #333;
-  }
+  .header a:hover {
+    background-color: #d8bfd8;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.form-right {
+    flex: 1;
+    position: relative;
+    text-align: center;
+}
+
+.form-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: calc(100% - 12px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group select {
+    width: 100%;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons button:first-child {
+    background-color: #ccc;
+    color: black;
+}
+
+.form-buttons button:last-child {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.salad-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    height: auto;
+}
+
+.salad-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.salad-elements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.salad-elements img {
+    position: absolute;
+}
+
+.salad-elements img:nth-child(1) {
+    top: 10%;
+    right: 10%;
+    width: 50px;
+}
+
+.salad-elements img:nth-child(2) {
+    top: 20%;
+    right: 20%;
+    width: 40px;
+}
+
+.salad-elements img:nth-child(3) {
+    bottom: 10%;
+    right: 15%;
+    width: 60px;
+}
+
+.salad-elements img:nth-child(4) {
+    bottom: 20%;
+    right: 25%;
+    width: 50px;
+}
