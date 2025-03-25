@@ -16,3 +16,10 @@
     </div>
     <img src="picture/logo.png" alt="โลโก้" style="max-width: 200px;">
   </div>
+
+    <h1>Menu</h1>
+    <ul>
+        <li th:each="item : ${menuItems}" th:text="${item.name}"></li>
+    </ul>
+</body>
+</html>
