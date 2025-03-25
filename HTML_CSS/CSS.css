@@ -124,6 +124,16 @@ body {
     cursor: pointer;
     margin-top: 10px;
   }
+
+  .login-btn1{
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
   
   .header a:hover {
     background-color: #d8bfd8;
@@ -153,7 +163,7 @@ body {
     margin-bottom: 15px;
 }
 
-.form-group label {
+.form-group label1 {
     display: block;
     margin-bottom: 5px;
 }
@@ -216,4 +226,71 @@ body {
 
 .salad-elements img {
     position: absolute;
+}
+
+.user-info, .bmi-bmr {
+  margin-bottom: 20px;
+}
+
+.user-details, .bmi-bmr-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+label {
+  width: 20%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 10px auto;
+}
+
+.actions {
+  text-align: right;
+}
+
+.edit-btn, .logout-btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ccc;
+  color: black;
+}
+
+.logout-btn {
+  background-color: #f00;
+  color: white;
+}
+
+.content {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
